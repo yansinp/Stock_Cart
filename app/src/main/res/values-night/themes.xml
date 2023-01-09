@@ -13,4 +13,10 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.StockCart.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/img_stock_splash_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.StockCart</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+    </style>
 </resources>
